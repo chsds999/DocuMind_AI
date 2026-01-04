@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Backend storage (uploads + vector db)
+doc-qa/backend/storage/
+!doc-qa/backend/storage/.gitkeep
+
+# Node / Vite
+doc-qa/frontend/node_modules/
+doc-qa/frontend/dist/
+doc-qa/frontend/.vite/
